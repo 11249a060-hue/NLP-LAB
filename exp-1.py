@@ -24,3 +24,30 @@ print(stemmed_words)
 print("\nWord Frequency:")
 for word, count in frequency.items():
  print(word,":",count)
+
+
+
+
+OUTPUT:-
+enter a sentence:Natural Language Processing helps computers understand human language and process text
+efficiently.
+Original Tokens:
+['natural', 'language', 'processing', 'helps', 'computers', 'understand', 'human', 'language', 'and',
+'process', 'text', 'efficiently']
+Filtered Words:
+['natural', 'language', 'processing', 'helps', 'computers', 'understand', 'human', 'language', 'process',
+'text', 'efficiently']
+Stemmed Words:
+['natur', 'languag', 'process', 'help', 'comput', 'understand', 'human', 'languag', 'process', 'text', 'effici']
+
+Word Frequency:
+natural : 1
+language : 2
+processing : 1
+helps : 1
+computers : 1
+understand : 1
+human : 1
+process : 1
+text : 1
+efficiently : 1
