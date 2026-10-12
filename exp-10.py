@@ -1,3 +1,4 @@
+
 import nltk
 from nltk.tokenize import word_tokenize
 
@@ -18,3 +19,23 @@ print(tagged_words)
 print("\nChunk Tree")
 print(chunk_tree)
 chunk_tree.draw()
+
+OUTPUT:-
+Enter a sentence: The intelligent student completed the machine learning project.
+POS Tagged Sentence
+[('The', 'DT'),
+('intelligent', 'JJ'),
+('student', 'NN'),
+('completed', 'VBD'),
+('the', 'DT'),
+('machine', 'NN'),
+('learning', 'NN'),
+('project', 'NN'),
+('.', '.')]
+
+Chunk Tree
+
+(S
+(NP The/DT intelligent/JJ student/NN)
+ (VP completed/VBD the/DT machine/NN learning/NN project/NN)
+./.)
