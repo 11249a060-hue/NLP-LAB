@@ -30,7 +30,7 @@ generate_words(word)
 
 
 OUTPUT:-
-play
+Enter a root word: play
 
 Generated Word Forms
 ----------------------
