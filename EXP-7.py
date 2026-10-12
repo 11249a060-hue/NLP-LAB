@@ -9,5 +9,15 @@ tags = pos_tag(tokens)
 print("\nPOS Tags using Viterbi Decoding Concept")
 print("-"*45)
 for word,tag in tags:
-    print(f"{word:<15} {tag}"
-          )
+    print(f"{word:<15} {tag}")
+
+OUTPUT:-
+Enter a sentence: Time flies like an arrow
+
+POS Tags using Viterbi Decoding Concept
+---------------------------------------------
+Time              NN
+flies             VBZ
+like              IN
+an                DT
+arrow             NN
