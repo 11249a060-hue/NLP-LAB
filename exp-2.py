@@ -1,3 +1,4 @@
+import nltk
 def generate_words(word):
     if word.endswith('y'):
         plural = word[:-1] + "ies"
@@ -26,3 +27,14 @@ def generate_words(word):
 
 word = input("Enter a root word: ").lower()
 generate_words(word)
+
+
+OUTPUT:-
+play
+
+Generated Word Forms
+----------------------
+Root Word : play
+Plural Form : plays
+Present Participle : playing
+Past Tense : played
