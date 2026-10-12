@@ -17,3 +17,37 @@ for gram in ngrams(tokens, 2):
 print("\nTrigrams")
 for gram in ngrams(tokens, 3):
     print(gram)
+
+
+OUTPUT:-
+Enter a sentence:Natural Language Processing is an exciting field.
+
+Original Tokens
+['Natural', 'Language', 'Processing', 'is', 'an', 'exciting', 'field', '.']
+
+Unigrams
+('Natural',)
+('Language',)
+('Processing',)
+('is',)
+('an',)
+('exciting',)
+('field',)
+('.',)
+
+Bigrams
+('Natural', 'Language')
+('Language', 'Processing')
+('Processing', 'is')
+('is', 'an')
+('an', 'exciting')
+('exciting', 'field')
+('field', '.')
+
+Trigrams
+('Natural', 'Language', 'Processing')
+('Language', 'Processing', 'is')
+('Processing', 'is', 'an')
+('is', 'an', 'exciting')
+('an', 'exciting', 'field')
+('exciting', 'field', '.')
