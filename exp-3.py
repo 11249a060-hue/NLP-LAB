@@ -19,3 +19,21 @@ for word in words:
     stem = stemmer.stem(word)
     lemma = lemmatizer.lemmatize(word)
     print("{:<15} {:<15} {:<15}".format(word, stem, lemma))
+
+OUTPUT:-
+Enter a sentence: The children are running and studying in the library.
+
+
+Morphological Analysis
+------------------------------------------------------------
+Original   Stemmed    Lemmatized
+------------------------------------------------------------
+The       the          The
+children  children    child
+are       are          are
+running   run         running
+and       and          and
+studying  studi      studying
+in         in          in
+the        the        the
+library  librari     library
