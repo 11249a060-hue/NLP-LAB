@@ -10,3 +10,15 @@ tagged_words = pos_tag(tokens)
     print("-" * 40)
 for word,tag in tagged_words:
     print(f"{word:<15} {tag}")
+
+OUTPUT:-
+Enter a sentence: Artificial Intelligence is transforming modern healthcare
+
+Part-of-Speech Tagged Sentence
+----------------------------------------
+Artificial          JJ
+Intelligence        NN
+is                 VBZ
+transforming       VBG
+modern             JJ
+healthcare         NN
